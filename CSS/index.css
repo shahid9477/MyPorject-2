@@ -1,0 +1,210 @@
+* {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.header-main-div {
+  display: flex;
+  justify-content: center;
+  line-height: 12px;
+
+}
+
+.top-heading2 {
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 16px;
+
+}
+
+.header-div {
+  text-align: center;
+  width: 375px;
+  font-size: 12px;
+
+}
+
+.header-detail-text {
+  line-height: 24px;
+  color: gray;
+}
+
+.top-heading {
+  font-size: 26px;
+  color: gray;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.supervisor-div {
+  border: solid;
+  border-top-color: rgb(88, 201, 202);
+  border-top-width: 4px;
+  border-left-color: white;
+  border-right-color: white;
+  border-bottom-color: white;
+  box-shadow: 0px 0px 5px;
+  border-radius: 5px;
+  height: 225px;
+  width: 315px;
+  position: relative;
+  padding-top: 30px;
+
+}
+
+.Supervisor {
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Team_Builder {
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.team-builder-detail {
+  padding-left: 30px;
+  padding-right: 50px;
+  font-size: 12px;
+  color: gray;
+}
+
+.Karma-title {
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Karma-deail {
+  padding-left: 30px;
+  padding-right: 50px;
+  font-size: 12px;
+  color: gray;
+}
+
+.Calculator-heading {
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Calculator-detail {
+  padding-left: 30px;
+  padding-right: 50px;
+  font-size: 12px;
+  color: gray;
+}
+
+.Monitors-activity {
+  padding-left: 30px;
+  padding-right: 50px;
+  font-size: 12px;
+  color: gray;
+}
+
+.Monitors-activity-img-div {
+  width: 80px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.team-bulder-div {
+  border: solid;
+  border-top-color: rgb(221, 90, 89);
+  border-top-width: 4px;
+  border-left-color: white;
+  border-right-color: white;
+  border-bottom-color: white;
+  box-shadow: 0px 0px 5px;
+  border-radius: 5px;
+  height: 225px;
+  
+  position: relative;
+  padding-top: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.center-section-main-div{
+  width: 315px;
+}
+.team-bulider-img-div {
+  width: 80px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+
+.karma-div {
+  border: solid;
+  border-top-color: rgb(244, 176, 89);
+  border-top-width: 4px;
+  border-left-color: white;
+  border-right-color: white;
+  border-bottom-color: white;
+  box-shadow: 0px 0px 5px;
+  border-radius: 5px;
+
+  height: 225px;
+  
+  position: relative;
+  padding-top: 30px;
+}
+
+.karma-img-div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.calculator-div {
+  border: solid;
+  border-top-color: rgb(90, 157, 230);
+  border-top-width: 4px;
+  border-left-color: white;
+  border-right-color: white;
+  border-bottom-color: white;
+  box-shadow: 0px 0px 5px;
+  border-radius: 5px;
+
+  height: 225px;
+  width: 315px;
+  position: relative;
+  padding-top: 30px;
+}
+
+.calculator-img-div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+@media (max-width:450px){
+  .main-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+}
+@media (max-width:450px){
+.calculator-div{
+  margin-top: 30px;
+
+}
+}
